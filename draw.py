@@ -87,7 +87,7 @@ def main():
         y += 42
 
     y += 26
-    ps = "P.S. The doorbell works. The printer does not. We don't talk about the printer."
+    ps = "P.S. The doorbell works. The printer does not. The Wi-Fi password is on the fridge — help yourself."
     f_ps = font(SANS, 24)
     for line in wrap(d, ps, f_ps, W - 220):
         d.text((110, y), line, font=f_ps, fill=RED)
